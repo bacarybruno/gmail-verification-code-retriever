@@ -12,9 +12,11 @@ const getVerificationMessage = async () => {
         q: gmailQuery
     });
     const messagesData = messages.data.messages;
-    if (messagesData.length <= 0) return null;
-    const message = messagesData[0];
-    return message;
+    if (messagesData && messagesData.length >= 0) {
+        const message = messagesData[0];
+        return message;
+    }
+    return null;
 }
 
 const watchVerificationMessage = async (callback) => {
@@ -36,7 +38,10 @@ const getVerificationCode = async (messageId) => {
 
 app.get('/', async (req, res) => {
     const message = await getVerificationMessage();
-    const verificationCode = await getVerificationCode(message.id);
+    let verificationCode = null;
+    if (message) {
+        verificationCode = await getVerificationCode(message.id);
+    }
     res.json({ verificationCode });
 });
 

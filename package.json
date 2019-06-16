@@ -1,7 +1,7 @@
 {
   "name": "gmail-verification-code-retriever",
   "version": "1.0.0",
-  "description": "Application to retrieve the last confirmation code sent by cognito in the user&#39;s gmail account",
+  "description": "Application to retrieve the last confirmation code sent by cognito in the user's gmail account",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

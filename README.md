@@ -1,9 +1,20 @@
 <h1 align="center">Welcome to gmail-verification-code-retriever 👋</h1>
 <p>
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/bacarybao/gmail-verification-code-retriever#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/bacarybao/gmail-verification-code-retriever/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/bacarybao/gmail-verification-code-retriever/blob/master/LICENSE">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" target="_blank" />
+  </a>
 </p>
 
-> Application to retrieve the last confirmation code sent in the user&#39;s gmail account.
+> Application to retrieve the last confirmation code sent by cognito in the user&amp;#39;s gmail account
+
+### 🏠 [Homepage](https://github.com/bacarybao/gmail-verification-code-retriever#readme)
 
 ## Steps
 - Open https://developers.google.com/gmail/api/quickstart/nodejs
@@ -23,7 +34,7 @@ npm install
 ## Usage
 
 ```sh
-node index.js
+npm run start
 ```
 
 ## Run tests
@@ -36,11 +47,20 @@ npm run test
 
 👤 **bacarybruno**
 
-* Github: [@https://github.com/bacarybao](https://github.com/https://github.com/bacarybao)
+* Github: [@bacarybao](https://github.com/bacarybao)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/bacarybao/gmail-verification-code-retriever/issues).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2019 [bacarybruno](https://github.com/bacarybao).<br />
+This project is [ISC](https://github.com/bacarybao/gmail-verification-code-retriever/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

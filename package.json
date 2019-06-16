@@ -9,6 +9,14 @@
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/bacarybao/gmail-verification-code-retriever#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacarybao/gmail-verification-code-retriever.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bacarybao/gmail-verification-code-retriever/issues"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "googleapis": "^39.2.0"

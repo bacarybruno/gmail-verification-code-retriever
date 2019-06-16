@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> Application to retrieve the last confirmation code sent by cognito in the user&amp;#39;s gmail account
+> Application to retrieve the last confirmation code sent by cognito in the user's gmail account
 
 ### 🏠 [Homepage](https://github.com/bacarybao/gmail-verification-code-retriever#readme)
 

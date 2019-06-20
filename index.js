@@ -32,7 +32,7 @@ const getVerificationCode = async (messageId) => {
         format: 'minimal'
     });
     const messageText = message.data.snippet;
-    const verificationCode = parseInt(messageText.match(/\d/g).join(''));
+    const verificationCode = messageText.match(/\d/g).join('');
     return verificationCode;
 };
 

@@ -1,20 +1,6 @@
 <h1 align="center">Welcome to gmail-verification-code-retriever 👋</h1>
-<p>
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/bacarybao/gmail-verification-code-retriever#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/bacarybao/gmail-verification-code-retriever/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/bacarybao/gmail-verification-code-retriever/blob/master/LICENSE">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" target="_blank" />
-  </a>
-</p>
 
 > Application to retrieve the last confirmation code sent by cognito in the user's gmail account
-
-### 🏠 [Homepage](https://github.com/bacarybao/gmail-verification-code-retriever#readme)
 
 ## Steps
 - Open https://developers.google.com/gmail/api/quickstart/nodejs
@@ -47,7 +33,8 @@ npm run test
 
 👤 **bacarybruno**
 
-* Github: [@bacarybao](https://github.com/bacarybao)
+* Github: [@bacarybruno](https://github.com/bacarybruno)
+* LinkedIn: [@bacarybruno](https://linkedin.com/in/bacarybruno)
 
 ## 🤝 Contributing
 
@@ -59,8 +46,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [bacarybruno](https://github.com/bacarybao).<br />
-This project is [ISC](https://github.com/bacarybao/gmail-verification-code-retriever/blob/master/LICENSE) licensed.
+Copyright © 2019 [bacarybruno](https://github.com/bacarybruno).<br />
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
